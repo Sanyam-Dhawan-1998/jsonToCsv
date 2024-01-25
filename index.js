@@ -2,7 +2,7 @@ const fs = require("fs");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
 // Read the JSON file
-const inputFile = "output.json"; // Replace with your JSON file name
+const inputFile = "path/to/your/file/name"; // Replace with your JSON file name
 const jsonArray = require(`./${inputFile}`);
 
 // Check if the array is not empty
